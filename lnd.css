@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+    padding: 2%;
+}
+
+body {
+    --color-primary : rgba(31, 123, 151, 0.651);
+    --color-dark: rgb(27, 77, 83);
+    --color-secondary: #252c6a;
+    --border-radius: 4px;
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --line-height:1.7rem;
+    --transition: 0.4s ease-in;
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    transition: var(--transition);
+    font-family: 'garamond' , serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.hamburger {
+    display: none;
+}
+a {
+    text-decoration:  none;
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+.logo__main {
+    color:var(--color-secondary);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 40px rgb(247, 242, 242);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 2rem;
+}
+
+.menu__home,
+.menu__about,
+.menu__contactUs,
+.menu__stakeHolders {
+    font-weight: var(--bold-font);
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    top:50%;
+    left:50%;
+    translate:(-50%, 50%);
+    font-size: 3rem;
+}
+
+.about__img {
+    float: left;
+    width: 50%;
+    length:30px;
+    padding-right: 2%;
+    vertical-align: middle;
+}
+
+.about__p {
+    text-align: justify;
+    font-size: 2rem;
+}
+
+p {
+    text-align: justify;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'garamond' serif;
+    text-shadow: 0px 0px 10px grey;
+    font-size: 2rem;
+}
+
+.map1 {
+    float: left;
+    width: 20%;
+    padding: 2%
+};
+
+.map2::after {
+    content: "";
+    clear: all;
+    display: table;
+}
+
+.container {
+    width:100%;
+    background-color: white;
+    height: 300px;
+
+}
+
+.socials {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.hide {
+    opacity: 0%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 5rem;
+    width: 50px;
+    height: 2px
+    text-align: center;
+    text-shadow: 0px 0px 10px grey;
+}
+.fa:hover {
+    opacity:0.7;
+}
+.img {
+    float: left;
+    width: 20%;
+    padding: 2%
+};
+
+.img2::after {
+    content: "";
+    clear: all;
+    display: table;
+}
